@@ -28,6 +28,26 @@
 
 ## :star2: About the Project
 
+## TODOs
+
+- [ ] What are constant drags on productivity?  What causes you to lose focus or annoys you?
+
+- `MH` Status discussions in stand up.  Often holds the entire team with something that could have been handled by Teams post of one-on-one.  Standup is for the team to check in with each other and figure out how to get to the next milestone.
+- `MH` Implementation details in acceptance criteria or basing the acceptance criteria on "how" to solve the problem, instead of how we will verify the work is done.  E.g.
+  - Bad: `DT_CHANGED` is set when the user modifies a record
+  - Good: The system will track the date and time the user modifies the record.
+  - The first one gives the development a single path and takes away their ability to think and solve problems.  What if they want to make a single `audit` table and each record gets a `created_audit_id` and a `modified_audit_id` because it takes less space or whatever.  To the customer, there is no difference in functionality and only the development team should be making implementation decisions - they *are* the ones implementing after all.  
+
+- [ ] What would accelerate project start up?
+  - `MH` Authentication checklist or scripts.
+  - `MH` EF configuration and extensions for common problems.
+  - `MH` Client-side framework for API calls, security, and utility functions.
+  - `MH` Client-side UI toolkit
+  - `MH` CI/CD templates for common use cases
+- [ ] What do you think are non negotiable on a project?
+  - `MH` Centralized error handling and logging.  
+  - `MH` Linear commit history on trunk branch.
+
 <!-- TechStack -->
 
 ### :space_invader: Tech Stack
