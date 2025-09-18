@@ -37,8 +37,9 @@
   <ul>
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
     <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://redux.js.org/">Redux.js</a></li>
+    <li><a href="https://zustand.docs.pmnd.rs/getting-started/introduction">Zustand</a></li>
     <li><a href="https://getbootstrap.com/">Bootstrap CSS</a></li>
+    <li><a href="https://pnpm.io/">PNPM</a></li>
   </ul>
 
 #### Server
@@ -155,7 +156,7 @@ Install dependencies
 ```bash
 dotnet restore
 cd Merlin.Web/client-app
-npm install -f --legacy-peer-deps
+pnpm install -f --legacy-peer-deps
 ```
 
 Start the application (ensure you are in the project root folder)
